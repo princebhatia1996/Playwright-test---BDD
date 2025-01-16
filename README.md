@@ -1,5 +1,28 @@
 ## Setup Instructions
 
+### Project Structure
+
+The project structure is as follows:
+
+```
+Playwright-test-BDD/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── tests/
+│   │   ├── features/
+│   │   │   └── *.feature
+│   │   ├── steps/
+│   │   │   └── *.steps.js
+│   │   └── support/
+│   │       └── *.js
+│   └── utils/
+├── .gitignore
+├── package.json
+├── README.md
+└── playwright.config.js
+```
+
 **Clone the repository:**
 
 ```
@@ -27,6 +50,8 @@ From there, in a separate terminal/command prompt, run the following command:
 
 ```
 npm run e2e
+npm run test:client-list
+npm run test:login
 ```
 
 ## Client Management application
