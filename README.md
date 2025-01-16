@@ -1,5 +1,8 @@
 ## Setup Instructions
 
+This project is a sample setup for using Cucumber and Playwright with TypeScript.
+It has e2e tests using the cucumber framework following the BDD syntax.
+
 ### Project Structure
 
 The project structure is as follows:
@@ -56,9 +59,8 @@ npm run test:login
 
 ## Client Management application
 
-This test Client management application was developed by Findex.
-
-The Playwright test is testing the following features of the client management system:
+- This test Client management application was developed by Findex.
+- The Playwright test is testing the following features of the client management system:
 
 - Logging into the application
 - Adding a client to the client list
