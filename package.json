@@ -1,0 +1,40 @@
+{
+  "name": "screening-react",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "postinstall": "npx playwright install",
+    "start": "vite",
+    "e2e": "cucumber-js --config ./cucumber.json",
+    "test": "npm run start & sleep 10 && npm run e2e",
+    "test:client-list": "cucumber-js --config ./cucumber.json --tags @client-list",
+    "test:login": "cucumber-js --config ./cucumber.json --tags @login"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@fontsource/inter": "^5.0.20",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/joy": "^5.0.0-beta.48",
+    "@mui/material": "^5.16.7",
+    "fs-extra": "^11.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.9.0",
+    "@playwright/test": "^1.46.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "cross-env": "^7.0.3",
+    "nanoid": "^5.0.7",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4"
+  },
+  "prettier": {
+    "printWidth": 120
+  }
+}
