@@ -1,7 +1,7 @@
 ## Setup Instructions
 
-This project is a sample setup for using Cucumber and Playwright with TypeScript.
-It has e2e tests using the cucumber framework following the BDD syntax.
+- This project is a sample setup for using Cucumber and Playwright with TypeScript.
+- It has e2e UI tests using the cucumber framework following the BDD syntax.
 
 ### Project Structure
 
