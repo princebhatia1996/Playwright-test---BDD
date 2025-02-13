@@ -2,7 +2,6 @@ import { IWorldOptions, setWorldConstructor, World } from "@cucumber/cucumber";
 import * as messages from "@cucumber/messages";
 import { APIRequestContext, Browser, BrowserContext, Page, PlaywrightTestOptions } from "@playwright/test";
 
-// eslint-disable-next-line @findex/code-standards/cs-2
 export interface ICustomWorld<CustomProperties = unknown> extends World {
   debug: boolean;
   context: BrowserContext;
